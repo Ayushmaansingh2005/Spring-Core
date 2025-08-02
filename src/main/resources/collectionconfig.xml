@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="org.example.Collections" />
+
+    <bean name="emp1"  class ="Collections.Emp">
+        <property name="name" value="Anand Raj"/>
+
+        <property name="phones">
+            <list>
+                <value>
+                    7765002708
+                </value>
+                <value>
+                    7352945220
+                </value>
+                <value>
+                    8454016709
+                </value>
+            </list>
+        </property>
+
+        <property name="addresses">
+            <set>
+                <value>
+                    Motihari
+                </value>
+                <value>
+                    Muzaffarpur
+                </value>
+                <value>
+                    Patna
+                </value>
+            </set>
+        </property>
+
+        <property name="courses">
+            <map>
+                <entry key="java" value="2Month"/>
+                <entry key ="python" value="1.2Months"/>
+                <entry key ="C" value="1Months"/>
+            </map>
+        </property>
+    </bean>
+
+
+</beans>
