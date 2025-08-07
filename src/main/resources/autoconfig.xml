@@ -36,6 +36,8 @@
 
 
 
+
+
     <bean class="autowired.annotation.Address" name="address2">
         <property name="street" value="kankarbagh"/>
         <property name="city" value="Patna"/>
