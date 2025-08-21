@@ -21,6 +21,7 @@
         <value>Aman</value>
     </util:list>
 <!--standalone map        -->
+
         <util:map map-class="java.util.HashMap" id="fees">
             <entry key="springCore" value="8000"/>
             <entry key="Hibernet" value="2000"/>
