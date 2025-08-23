@@ -20,6 +20,7 @@
         <value>Ankit</value>
         <value>Aman</value>
     </util:list>
+
 <!--standalone map        -->
 
         <util:map map-class="java.util.HashMap" id="fees">
