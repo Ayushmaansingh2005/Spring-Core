@@ -34,6 +34,7 @@
     <util:properties id="dbconfig">
         <prop key="driver">com.mysql.jdbc.Driver</prop>
         <prop key="username">Ayushmaan</prop>
+
         <prop key="password"> abd</prop>
         <prop key="url">mysql:jdbc://localhost::3306/database</prop>
     </util:properties>
