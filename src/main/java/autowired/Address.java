@@ -11,6 +11,7 @@ public class Address {
                 ", city='" + city + '\'' +
                 '}';
     }
+
     public String getStreet() {
         return street;
     }
