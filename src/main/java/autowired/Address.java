@@ -4,6 +4,7 @@ public class Address {
     private String street;
     private String city;
 
+
     @Override
     public String toString() {
         return "Address{" +
